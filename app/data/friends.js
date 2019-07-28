@@ -61,7 +61,7 @@ const friendsArray = [
       5
     ]
   }, {
-    "name": "Diane Yugen",
+    "name": "Diane Nyugen",
     "photo": "https://vignette.wikia.nocookie.net/bojackhorseman/images/6/60/Diane_Nguyen_Season_5_haircut.png/revision/latest?cb=20180905000602",
     "scores": [
       1,
