@@ -46,18 +46,18 @@
           <hr>
           <h3>Tell Us About Yourself</h3>
 
-          <div class="mb-3">
+          <div class=" mb-3">
             <h5>Name (Required)</h5>
-            <input type="text" placeholder="Your Name Here" id="userName" required>
+            <input type="text" placeholder="Your Name Here" id="userName">
           </div>
 
-          <div class="col-sm-6 col-md-12 mb-3">
+          <div class=" mb-3">
             <h5>Link to Photo Image (Required)</h5>
-            <input type="text" placeholder="Photo Link Here" id="userPhoto" required>
+            <input type="text" placeholder="Photo Link Here" id="userPhoto">
           </div>
 
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 1</h3>
             <h5>You're happy with your life as it is right now</h5>
             <select id="question1">
@@ -70,7 +70,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 2</h3>
             <h5>You are a positive person</h5>
             <select id="question2">
@@ -83,7 +83,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 3</h3>
             <h5>You get satisfaction out of helping people</h5>
             <select id="question3">
@@ -96,7 +96,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 4</h3>
             <h5>You would consider yourself egotistical.</h5>
             <select id="question4">
@@ -109,7 +109,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 5</h3>
             <h5>You are spontaneous.</h5>
             <select id="question5">
@@ -122,7 +122,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 6</h3>
             <h5>You are a high energy person</h5>
             <select id="question6">
@@ -135,7 +135,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 7</h3>
             <h5>You make regrettable decisions often</h5>
             <select id="question7">
@@ -148,7 +148,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 8</h3>
             <h5>You often dwell on the past.</h5>
             <select id="question8">
@@ -161,9 +161,9 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 9</h3>
-            <h5>You have a good relationship with my parents</h5>
+            <h5>You have a good relationship with your parents</h5>
             <select id="question9">
               <option value="" disabled selected>Choose your option</option>
               <option value="1">1 (Strongly Disagree)</option>
@@ -174,7 +174,7 @@
             </select>
           </div>
 
-          <div class="col-sm-12">
+          <div>
             <h3>Question 10</h3>
             <h5>You enjoy being around people.</h5>
             <select id="question10">
@@ -189,7 +189,7 @@
 
 
           <div class="text-center">
-            <button class="btn btn-primary btn-lg my-5" type="submit" name="form" id="submit">Meet your new
+            <button class="btn btn-primary btn-lg my-5" type="submit" id="submit">Meet your new
               Friend! </button>
           </div>
         </div>
@@ -201,17 +201,18 @@
 
 
 
-    <div class="modal" tabindex="-1" role="dialog">
+    <div class="modal" id="myModal" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title">Your Friender Match</h5>
+            <h4 class="modal-title ">Meet Your Friender Match!</h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <p>Modal body text goes here.</p>
+            <h4 class=" text-center" id="match"></h4>
+            <img src="" alt="match Image" id="matchImage">
           </div>
           <div class="modal-footer">
             <a href="/survey" class="btn btn-primary">Take the quiz again</a>
@@ -225,9 +226,8 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
   </script>
@@ -235,6 +235,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
   </script>
   <script src="./index.js"></script>
+
 </body>
 
 </html>

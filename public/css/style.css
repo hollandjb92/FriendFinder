@@ -20,6 +20,21 @@ body {
   font-size: 125%;
 }
 
+#matchImage {
+  display: block;
+  margin: 0 auto;
+}
+
+#match {
+  text-decoration: underline;
+  font-size: 175%;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 400px;
+  height: 600px;
+}
 
 select:last-child {
   margin-bottom: 15px;
