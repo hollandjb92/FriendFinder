@@ -34,11 +34,11 @@ router.post("/friends", (req, res) => {
   }
 
   friends.push(userInput);
-  res.json({
-    status: 200,
-    matchName,
-    matchImage
-  })
+//   res.json({
+//     status: 200,
+//     matchName,
+//     matchImage
+//   })
 
 });
 
