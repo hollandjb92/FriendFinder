@@ -1,0 +1,36 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgba(238, 238, 238, 0.25) !important;
+  background-blend-mode: color;
+  background: url("https://i.imgur.com/mnM3Y7O.jpg");
+  background-size: cover;
+
+}
+
+.jumbotron {
+  background: rgba(204, 204, 204, 0.6);
+  color: #ffffff;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+}
+
+.jumbotron p {
+  font-weight: 500;
+  font-size: 125%;
+}
+
+
+select:last-child {
+  margin-bottom: 15px;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  vertical-align: middle;
+  font-size: 90%;
+  bottom: 0;
+  width: 100%
+}
