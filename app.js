@@ -15,7 +15,6 @@ app.use(
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use("/api", require("./routes/apiRoutes"));
-app.use("/survey", require("./routes/apiRoutes"));
 app.use("/", require("./routes/htmlRoutes"));
 
 
