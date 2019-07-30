@@ -22,7 +22,7 @@ router.post("/friends", (req, res) => {
   for (i = 0; i < friends.length; i++) {
     let difference = 0;
     for (j = 0; j < userScores.length; j++) {
-      // console.log(friends[i])
+
       difference += Math.abs(friends[i].scores[j] - userScores[j])
     }
 
@@ -34,11 +34,11 @@ router.post("/friends", (req, res) => {
   }
 
   friends.push(userInput);
-//   res.json({
-//     status: 200,
-//     matchName,
-//     matchImage
-//   })
+  res.json({
+    status: 200,
+    matchName,
+    matchImage
+  })
 
 });
 
