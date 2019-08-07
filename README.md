@@ -39,7 +39,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 <li><a href="https://nodejs.org/en/">Node.js</a></li>
 <li><a href="https://www.mysql.com/">Express</a></li>
   <li><a href="https://www.npmjs.com/package/body-parser">body-parser</a></li>
-  <li><a href="https://getbootstrap.com/">Boostrap</a></li>
+  <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
     <li><a href="https://jquery.com/">jQuery</a></li>
 
 </ul>
